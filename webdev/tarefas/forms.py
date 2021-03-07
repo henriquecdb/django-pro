@@ -6,3 +6,7 @@ class TarefaNovaForm(ModelForm):
     class Meta:
         model = Tarefa
         fields = ['nome']
+class TarefaForm(ModelForm):
+    class Meta:
+        model = Tarefa
+        fields = ['nome', 'feita']
